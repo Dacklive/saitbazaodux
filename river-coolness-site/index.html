@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Речная прохлада | Отдых у реки</title>
+    <meta
+      name="description"
+      content="База отдыха Речная прохлада с прямым выходом к широкой реке, уютными номерами, кухонной зоной, террасой, причалом и зоной барбекю."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Речная прохлада">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img">
+            <path d="M9 33c8 5 14-5 22 0 4 3 8 2 11-1" />
+            <path d="M24 30V12" />
+            <path d="M24 15c-7 0-11 5-12 11 6 0 11-4 12-11Z" />
+            <path d="M25 15c7 0 11 5 12 11-6 0-11-4-12-11Z" />
+          </svg>
+        </span>
+        <span>Речная прохлада</span>
+      </a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#about">О базе</a>
+        <a href="#rooms">Проживание</a>
+        <a href="#water">У воды</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="header-cta" href="#contacts">Контакты</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Главный экран">
+        <picture>
+          <source srcset="assets/river-deck.jpg" media="(min-width: 700px)" />
+          <img src="assets/covered-terrace.jpg" alt="Деревянный причал с коваными перилами у широкой реки" />
+        </picture>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Прямой выход к широкой реке</p>
+          <h1>ОТДЫХ У РЕКИ: Ваш уютный уголок природы</h1>
+          <p>
+            Приезжайте за тишиной, рыбалкой и домашним уютом на базу
+            "Речная прохлада".
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contacts">СВЯЗАТЬСЯ С НАМИ</a>
+            <a class="button secondary" href="#rooms">Смотреть номера</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro" id="about">
+        <div class="section-copy">
+          <p class="eyebrow">О нас</p>
+          <h2>Простой, продуманный отдых рядом с водой</h2>
+          <p>
+            "Речная прохлада" находится у самой реки: от номера до деревянной
+            террасы и причала всего несколько шагов. Здесь легко выдохнуть,
+            устроить семейный пикник, порыбачить, приготовить ужин на мангале
+            и вернуться в теплый номер с кухонной зоной, душем и туалетом.
+          </p>
+        </div>
+        <div class="benefits" aria-label="Преимущества">
+          <article>
+            <i data-lucide="waves"></i>
+            <h3>Причал</h3>
+            <p>Рыбалка и спокойные вечера у воды прямо на территории.</p>
+          </article>
+          <article>
+            <i data-lucide="flame-kindling"></i>
+            <h3>Мангал</h3>
+            <p>Зона барбекю под навесом для ужинов в любую погоду.</p>
+          </article>
+          <article>
+            <i data-lucide="trees"></i>
+            <h3>Природа</h3>
+            <p>Чистый воздух, просторная река и зеленый противоположный берег.</p>
+          </article>
+          <article>
+            <i data-lucide="armchair"></i>
+            <h3>Уют</h3>
+            <p>Серо-бежевые интерьеры, мягкая мебель и все нужное под рукой.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="rooms" id="rooms">
+        <div class="section-heading">
+          <p class="eyebrow">Проживание</p>
+          <h2>Наши уютные номера</h2>
+          <p>
+            В номерах есть кухонная зона без плиты, совмещенный санузел с душем,
+            кондиционер, телевизор и удобная мебель.
+          </p>
+        </div>
+        <div class="room-grid">
+          <article class="room-card">
+            <img src="assets/kitchen-lounge.jpg" alt="Кухня-гостиная с кремовой мебелью и серым диваном" />
+            <div class="room-body">
+              <h3>Семейные апартаменты с кухней-гостиной</h3>
+              <p>
+                Простор для семьи: кухонная зона с микроволновкой, холодильником
+                и чайником, столовая зона, диван и спокойная серо-бежевая отделка.
+              </p>
+              <ul class="amenities">
+                <li><i data-lucide="chef-hat"></i> Кухонная зона без плиты</li>
+                <li><i data-lucide="shower-head"></i> Душ и туалет вместе</li>
+                <li><i data-lucide="snowflake"></i> Кондиционер</li>
+                <li><i data-lucide="tv"></i> Телевизор</li>
+              </ul>
+            </div>
+          </article>
+          <article class="room-card">
+            <img src="assets/studio-bed-kitchen.jpg" alt="Студио-номер с кроватью и кухней" />
+            <div class="room-body">
+              <h3>Уютный студио-номер для двоих</h3>
+              <p>
+                Компактный номер для отдыха вдвоем: мягкая кровать с чистым
+                бельем, кухонная зона, холодильник, прикроватные тумбы и теплый свет.
+              </p>
+              <ul class="amenities">
+                <li><i data-lucide="bed-double"></i> Двуспальная кровать</li>
+                <li><i data-lucide="refrigerator"></i> Холодильник и чайник</li>
+                <li><i data-lucide="badge-check"></i> Свежая отделка</li>
+                <li><i data-lucide="shower-head"></i> Совмещенный санузел</li>
+              </ul>
+            </div>
+          </article>
+          <article class="room-card">
+            <img src="assets/twin-room.jpg" alt="Номер с двумя отдельными кроватями" />
+            <div class="room-body">
+              <h3>Номер с двумя отдельными кроватями</h3>
+              <p>
+                Удобный вариант для друзей, родственников или гостей, которым
+                комфортнее спать отдельно. В номере спокойная серая отделка,
+                шкаф-вешалка, постельное белье и мягкий дневной свет.
+              </p>
+              <ul class="amenities">
+                <li><i data-lucide="bed"></i> Две отдельные кровати</li>
+                <li><i data-lucide="armchair"></i> Простая удобная мебель</li>
+                <li><i data-lucide="badge-check"></i> Чистое постельное белье</li>
+                <li><i data-lucide="shower-head"></i> Душ и туалет вместе</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="water" id="water">
+        <div class="water-media">
+          <img src="assets/covered-terrace.jpg" alt="Терраса под навесом с выходом к реке" />
+          <img src="assets/patio-facade.png" alt="Крытая зона у номеров с видом на реку через окна" />
+        </div>
+        <div class="water-copy">
+          <p class="eyebrow">Развлечения и услуги</p>
+          <h2>Ваш отдых у воды</h2>
+          <p>
+            День можно начать с рыбалки на причале, продолжить прогулкой по
+            берегу, а вечером собраться на террасе у воды.
+          </p>
+          <div class="activity-list">
+            <span><i data-lucide="fish"></i> Рыбалка прямо с причала</span>
+            <span><i data-lucide="sun"></i> Отдых на террасе у воды</span>
+            <span><i data-lucide="utensils"></i> Барбекю под навесом</span>
+            <span><i data-lucide="footprints"></i> Прогулки по берегу</span>
+            <span><i data-lucide="users-round"></i> Семейные пикники</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Галерея</p>
+          <h2>Номера, терраса и вид на реку</h2>
+        </div>
+        <div class="gallery" data-gallery>
+          <button type="button" data-full="assets/river-deck.jpg">
+            <img src="assets/river-deck.jpg" alt="Широкая река с деревянной террасы" />
+          </button>
+          <button type="button" data-full="assets/family-bedroom.jpg">
+            <img src="assets/family-bedroom.jpg" alt="Спальня с диваном и картиной" />
+          </button>
+          <button type="button" data-full="assets/twin-room.jpg">
+            <img src="assets/twin-room.jpg" alt="Номер с двумя отдельными кроватями" />
+          </button>
+          <button type="button" data-full="assets/dining-kitchen.jpg">
+            <img src="assets/dining-kitchen.jpg" alt="Обеденная зона с телевизором и кухней" />
+          </button>
+          <button type="button" data-full="assets/shower.png">
+            <img src="assets/shower.png" alt="Душевая с серой плиткой и черной лейкой" />
+          </button>
+          <button type="button" data-full="assets/bathroom.jpg">
+            <img src="assets/bathroom.jpg" alt="Ванная комната с раковиной и туалетом" />
+          </button>
+          <button type="button" data-full="assets/family-dining.jpg">
+            <img src="assets/family-dining.jpg" alt="Столовая зона семейного номера" />
+          </button>
+        </div>
+      </section>
+
+      <section class="booking contacts-section" id="contacts">
+        <div class="booking-copy">
+          <p class="eyebrow">Контакты</p>
+          <h2>Свяжитесь с нами напрямую</h2>
+          <p>
+            Напишите или позвоните, чтобы уточнить свободные даты, условия
+            размещения и детали отдыха у воды.
+          </p>
+          <div class="contact-list">
+            <a href="tel:+79272812739"><i data-lucide="phone"></i> 8 927 281-27-39</a>
+            <a href="mailto:nissan-33330.alhanov@yandex.ru"><i data-lucide="mail"></i> nissan-33330.alhanov@yandex.ru</a>
+            <span><i data-lucide="map-pin"></i> Координаты: 46.381123, 48.607911</span>
+          </div>
+        </div>
+        <div class="contact-panel" aria-label="Контактная информация">
+          <h3>Речная прохлада</h3>
+          <p>База отдыха у реки с террасой, причалом и уютными номерами.</p>
+          <a class="button primary" href="tel:+79272812739">Позвонить</a>
+          <a class="button contact-mail" href="mailto:nissan-33330.alhanov@yandex.ru">Написать на почту</a>
+        </div>
+      </section>
+
+      <section class="map-faq">
+        <div class="map-card">
+          <h2>Мы у воды</h2>
+          <iframe
+            title="Карта расположения базы отдыха у реки"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=48.557911%2C46.331123%2C48.657911%2C46.431123&amp;layer=mapnik&amp;marker=46.381123%2C48.607911"
+          ></iframe>
+        </div>
+        <div class="faq">
+          <p class="eyebrow">FAQ</p>
+          <h2>Часто задаваемые вопросы</h2>
+          <details open>
+            <summary>Есть ли парковка?</summary>
+            <p>Да, для гостей предусмотрена парковка на территории базы.</p>
+          </details>
+          <details>
+            <summary>Можно ли пользоваться мангалом?</summary>
+            <p>Да, есть мангальная зона под крытой террасой. Уточните время при бронировании.</p>
+          </details>
+          <details>
+            <summary>Есть ли баня?</summary>
+            <p>Бани на территории нет.</p>
+          </details>
+          <details>
+            <summary>Подходит ли база для отдыха с детьми?</summary>
+            <p>Да, номера рассчитаны на семейный отдых, есть кухонная зона, совмещенный душ с туалетом и места для спокойных прогулок.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" role="img">
+              <path d="M9 33c8 5 14-5 22 0 4 3 8 2 11-1" />
+              <path d="M24 30V12" />
+              <path d="M24 15c-7 0-11 5-12 11 6 0 11-4 12-11Z" />
+              <path d="M25 15c7 0 11 5 12 11-6 0-11-4-12-11Z" />
+            </svg>
+          </span>
+          <span>Речная прохлада</span>
+        </a>
+        <p>Теплый отдых у широкой реки, где есть тишина, воздух и домашний комфорт.</p>
+      </div>
+      <div class="socials" aria-label="Социальные сети">
+        <a href="#" aria-label="ВКонтакте"><i data-lucide="message-circle"></i></a>
+        <a href="#" aria-label="Telegram"><i data-lucide="send"></i></a>
+        <a href="#" aria-label="WhatsApp"><i data-lucide="phone-call"></i></a>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" data-lightbox>
+      <button type="button" class="lightbox-close" data-lightbox-close aria-label="Закрыть">
+        <i data-lucide="x"></i>
+      </button>
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" data-lightbox-image />
+    </dialog>
+  </body>
+</html>
